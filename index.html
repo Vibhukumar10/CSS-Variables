@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>CSS Variables</title>
+</head>
+<body>
+    <h2>Update CSS Variables with <span class="js">JS</span></h2>
+    <div class="controls">
+        <div class="spacing">
+            <label for="spacing">Spacing :</label>
+            <input type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
+        </div>
+        
+        <div class="blur">
+            <label for="blur">Blur :</label>
+            <input type="range" name="blur" min="0" max="25" value="10" data-sizing="px">
+        </div>
+        
+        <div class="color">
+            <label for="base">Base Color :</label>
+            <input type="color" name="base" value="#ffc600">   
+        </div>
+            
+    </div>
+    <div class="container">
+        <img src="images/stamford.jpg" alt="stamford bridge">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

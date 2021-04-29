@@ -1,0 +1,52 @@
+:root{
+    --spacing: 10px;
+    --blur: 10px;
+    --base: #ffc600;
+    
+}
+
+body{
+    font-family: 'Merriweather', serif;
+    background-color: #02475e;
+    color: white;
+}
+
+h2{
+    margin: 5% 0;
+    text-align: center;
+    font-size: 4rem;
+}
+
+img{
+    padding: var(--spacing);
+    width: 35%;
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+label{
+    padding: 0 2%;
+}
+
+.js{
+    color: var(--base);
+}
+
+.controls{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.spacing, .blur, .color{
+    display: inline;
+    padding: 0 3%;
+}
+
+.container{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+
