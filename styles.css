@@ -2,7 +2,6 @@
     --spacing: 10px;
     --blur: 10px;
     --base: #ffc600;
-    
 }
 
 body{
@@ -47,6 +46,29 @@ label{
     text-align: center;
     width: 100%;
     margin: auto;
+}
+
+@media only screen and (max-width: 600px){
+    .spacing, .blur, .color{
+        display: inline-block;
+        text-align: left;
+        width: 75%;
+        margin-left: 5%;
+    }
+    .controls{
+        padding: 5% 0 5%;
+    }
+    label{
+        font-size: 1.5rem;
+    }
+    h2{
+        margin-top: 10%;
+        font-size: 3rem;
+    }
+    img{
+        margin-top: 2%;
+        width: 60%;
+    }
 }
 
 
